@@ -1,0 +1,26 @@
+#marker{
+    margin:10px 0 15px -10px;
+}
+#address{
+    display: block;
+    margin: 50px 0px 0px 0px  25px;
+    color: white;
+    font-size: 18px;
+}
+
+.contact{
+    display: block;
+}
+
+#contactbook{
+    color: white;
+    font-size: 55px;
+    margin: 20px 10px 0 -20px;
+}
+
+
+.details{
+    color: white;
+    font-size: 20px;
+    margin: 30px 0 0 -20px;
+}

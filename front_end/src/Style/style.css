@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.navbar-brand {
+    width: 75%
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+.home {
+    width: 95%;
+    margin: 0px 20px 0px 40px;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.div3 {
+    display: flex;
+    width: 90%;
+}
+
+.about-us {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    padding-right: 180px;
+    padding-left: 80px;
+    width: 100%;
+    position: relative;
+}
+
+.about-us:before {
+    content: "";
+    position: absolute;
+    left: 80px;
+    top: 8%;
+    width: 10%;
+    height: 3.5px;
+    background-color: black;
+}
+
+.read-more-btn {
+    text-decoration: none;
+    padding: 10px 5px;
+    border: 2px solid black;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    /* color: #626262; */
+    /* line-height: 23px; */
+    letter-spacing: 0.02em;
+    background-color: white;
+}
+
+.read-more-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.read-more-btn a:hover {
+    text-decoration: none;
+    padding: 15px 13px;
+    letter-spacing: 1.5px;
+    color: white;
+    background-color: rgb(53, 46, 46);
+    -webkit-transition: letter-spacing .6s, padding .6s, background-color .4s;
+
+    
+
+}
+
+
+
+/* NAVBAR.JS PAGE STYLE */
+
+.navbar-nav a {
+    position: relative;
+    text-decoration: none;
+}
+
+.navbar-nav a::before {
+    content: "";
+    position: absolute;
+    left: 20%;
+    top: 98%;
+    width: 0%;
+    height: 2.5px;
+    background-color: black;
+    transition: all 0.2s linear;
+}
+
+.navbar-nav a:hover::before {
+    width: 45%;
+}
